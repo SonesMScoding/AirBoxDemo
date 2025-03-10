@@ -80,6 +80,7 @@ header li a{
 .summary p{
     color: grey;
     width: 60%;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -88,7 +89,8 @@ header li a{
     color: white;
     border-radius: 13%;
     padding: 1%;
-    width: 8vw;
+    width: 11vw;
+    font-size: 2vw;
     margin-top: -.75vw;
 }
 
@@ -137,7 +139,7 @@ header li a{
 
 .pricing{
     height: 35%;
-    background-color: #E8E8EA;
+    background-color: #d2d2d2;
     margin: 0;
     padding: 2%;
     display: flex;
@@ -195,6 +197,7 @@ header li a{
 
 .product-features{
     color: #555;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -203,7 +206,7 @@ header li a{
 
 .row{
     height: 3vw;
-    border: solid .1vw #d1d1d1 ;
+    border: solid .1vw #c0bebe ;
     margin: 0;
     text-align: center;
     background-color: #FFFFFF;
@@ -227,15 +230,15 @@ header li a{
     border-right: 2vw solid transparent;
     border-top: 2vw solid #6F6C89;
      /* border-top: 2vw solid #5e4ce5; */
-    margin: -.1vw 0vw 0vw 7vw;
+    margin: -.3vw 0vw 0vw 7vw;
 }
 .grey{
-    background-color: #F5F0F0;
+    background-color: #c2b9b9;
 }
 
 .row p{
-    font-size: 1.1vw;
-    color:#b5b5b5;
+    font-size: 1.5vw;
+    color:#9e9c9c;
 }
 
 
@@ -280,9 +283,11 @@ header li a{
      margin: 0;
 }
 
+.details ul li{
+    font-size: 2vw;
+}
 .details li::marker {
     color: #F29B66 ;
-    font-size: 1.5vw;
   }
 
 .details p{
@@ -297,9 +302,10 @@ header li a{
     color: white;
     border-radius: 9%;
     padding: 4%;
-    width: 9vw;
+    width: 11vw;
     margin-top: -.75vw;
     margin-bottom: 4.5vw;
+    font-size: 1.75vw;
 }
 
 .contributors img{
@@ -330,7 +336,7 @@ footer{
 
   .left-footer img{
     width: 15vw;
-    margin: 0;
+    margin: 1vw;
     padding: 0;
   }
 
